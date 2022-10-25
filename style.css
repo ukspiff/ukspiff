@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    min-width: 250px;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(127, 133, 255);
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    justify-content: right;
+    align-items: flex-end;
+    width: 100%;
+    height: 3.5rem;
+    background-color: rgb(127, 133, 255);
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.bag-logo img {
+    height: 2.8rem;
+    width: 2.8rem;
+}
+
+.hero-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+}
+
+/* End of header **/
+
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem 5rem;
+    background-color: darkgrey;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.shop .shop-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.shop .shop-box img {
+    width: 70%;
+    height: 300px;
+}
+
+.shop .shop-box .prices {
+    display: flex;
+    gap: 3rem;
+}
+
+.slashed-price {
+    text-decoration: line-through;
+}
+
+.shop-box button {
+    width: 9rem;
+    height: 4rem;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(127, 133, 255);
+    color: white;
+    font-weight: 800;
+    font-size: 1.2rem;
+    transition: all 1.2s;
+}
+
+.shop-box button:hover {
+    background-color: darkgray;
+    color: rgb(127, 133, 255);
+    border: 2px solid rgb(127, 133, 255);
+}
+
+footer {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 40, 40);
+}
+
+footer h2 {
+    font-size: 5rem;
+    color: rgb(245, 245, 245);;
+}
